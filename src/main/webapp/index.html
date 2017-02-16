@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!-- SCRIPTS -->
+<script type="text/javascript" src="angular/angular.min.js"></script>
+<script type="text/javascript" src="angular/angular-route.min.js"></script>
+<!-- LINKS -->
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<ul>
+	<li><a href="#!/">Inicio</a></li>
+	<li><a href="#!/lista/personas">Lista personas</a></li>
+	<li><a href="#!/login">Login</a></li>
+</ul>
+
+
+<div ng-view></div>
+
+</body>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/controller/ListaPersonaController.js"></script>
+</html>

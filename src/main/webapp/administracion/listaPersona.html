@@ -1,0 +1,22 @@
+<div class="table-responsive col-md-8">
+	<table class="table table-hover">
+		<thead>
+			<th>Rut</th>
+			<th>Nombre</th>
+			<th>Apellido Paterno</th>
+			<th>Apellido Materno</th>
+			<th>Pais</th>
+			<th>Genero</th>
+		</thead>
+		<tbody>
+			<tr ng-repeat="persona in personas">
+				<td>{{persona.rut}}-{{persona.digitoverificador}}</td>
+				<td>{{persona.nombre}}</td>
+				<td>{{persona.apellidopaterno}}</td>
+				<td>{{persona.apellidomaterno}}</td>
+				<td>{{persona.pais}}</td>
+				<td>{{persona.genero}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
